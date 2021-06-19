@@ -28,7 +28,7 @@ Being clear about these basics, we could be able to build our first simple http 
 
 **Second: let's code!**
 
-    ```js
+    ```
     const http = require('http');
     const port = 3000;
 
@@ -68,7 +68,7 @@ or, let's initialize a little project, to run easily this server.  Then type on 
 
 modify your scripts on your package.json:
 
-    ```json
+    ```
     "scripts": {
     "start": "node index.js"
     },

@@ -28,18 +28,18 @@ Being clear about these basics, we could be able to build our first simple http 
 
 **Second: let's code!**
 
-    ```
-    const http = require('http');
-    const port = 3000;
+    ```js
+        const http = require('http');
+        const port = 3000;
 
-    const server = http.createServer((req, res) => {
-        res.write('Response from a simple HTTP server');
-        res.end();
-    });
+        const server = http.createServer((req, res) => {
+            res.write('Response from a simple HTTP server');
+            res.end();
+        });
 
-    server.listen(port, () => {
-        console.log('Server running on port ' + port);
-    });
+        server.listen(port, () => {
+            console.log('Server running on port ' + port);
+        });
     ```
 
 ### By default, http module is in NodeJS, that's to say, it's not necessary to install it, only require.
@@ -68,10 +68,10 @@ or, let's initialize a little project, to run easily this server.  Then type on 
 
 modify your scripts on your package.json:
 
-    ```
-    "scripts": {
-    "start": "node index.js"
-    },
+    ```json
+        "scripts": {
+        "start": "node index.js"
+        },
     ```
 
 and, to run your server type:

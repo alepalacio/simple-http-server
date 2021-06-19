@@ -28,7 +28,7 @@ Being clear about these basics, we could be able to build our first simple http 
 
 **Second: let's code!**
 
-    ```js
+    
         const http = require('http');
         const port = 3000;
 
@@ -40,7 +40,7 @@ Being clear about these basics, we could be able to build our first simple http 
         server.listen(port, () => {
             console.log('Server running on port ' + port);
         });
-    ```
+    
 
 ### By default, http module is in NodeJS, that's to say, it's not necessary to install it, only require.
 
@@ -56,9 +56,9 @@ Being clear about these basics, we could be able to build our first simple http 
 
 To run this server, open your terminal, place on your workspace folder and type:
 
-    ```
+    
     node index.js
-    ```
+    
 
 or, let's initialize a little project, to run easily this server.  Then type on your terminal:
 

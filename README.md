@@ -62,23 +62,23 @@ To run this server, open your terminal, place on your workspace folder and type:
 
 or, let's initialize a little project, to run easily this server.  Then type on your terminal:
 
-    ```
+    
     npm init --y
-    ```
+    
 
 modify your scripts on your package.json:
 
-    ```json
+    
         "scripts": {
         "start": "node index.js"
         },
-    ```
+    
 
 and, to run your server type:
 
-    ```
+    
     npm start
-    ```
+    
 
 ### ...and this is it! A very simple and basic http server is running locally on your machine. 
 
